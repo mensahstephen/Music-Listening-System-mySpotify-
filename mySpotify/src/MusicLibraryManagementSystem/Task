@@ -1,0 +1,59 @@
+Lab Exercise: Music Library Management System
+
+Introduction:
+In this lab exercise, you will design and implement a Music Library Management System. The system will allow you to manage music albums, artists, songs, and playlists. You will apply object-oriented programming concepts to create a cohesive and interactive music management solution.
+
+Classes to Implement:
+
+1. `Artist` Class:
+   - Attributes: name, date of birth (dob), genre
+   - Methods: addAlbum(Album album), other methods as needed
+
+2. `Album` Class:
+   - Attributes: title, release year, artist, list of songs, total duration
+   - Methods: addSong(Song song), other methods as needed
+
+3. `Song` Class:
+   - Attributes: title, duration, artist
+   - Methods: play(), other methods as needed
+
+4. `Playlist` Class:
+   - Attributes: title, list of Playable items (songs and playlists)
+   - Methods: addPlayable(Playable playable), play(), other methods as needed
+
+5. `Playable` Interface:
+   - Method: play()
+
+Key Concepts to Incorporate:
+
+- Aggregation and Composition: Model the relationship between artists and albums, and albums and songs.
+- Polymorphism: Utilize polymorphism to interact with different types of music objects (albums, songs, playlists) using the same methods.
+- Method Overriding: Override methods in subclasses (e.g., getDetails()) to provide specific information.
+- Interface: Implement interfaces (e.g., Playable) for objects that can be played (songs and playlists).
+
+Tasks:
+
+1. Implement the `Artist` class with the necessary attributes and methods. Artists should be able to add albums to their collection.
+
+2. Implement the `Album` class with the necessary attributes and methods. Albums should be able to add songs to their playlist.
+
+3. Implement the `Song` class with the necessary attributes and methods. Songs should be playable and have a duration.
+
+4. Implement the `Playlist` class with the necessary attributes and methods. Playlists should be able to add playable items (songs and playlists) and provide a method to play the entire playlist.
+
+5. Implement the `Playable` interface with the required method for playing.
+
+6. Create a main class `MusicLibraryManagementSystem` for testing and interacting with the music library. In this class, you can create artists, albums, songs, and playlists, and demonstrate their functionality.
+
+7. Test your Music Library Management System by creating various artists, albums, songs, and playlists. Demonstrate how to add songs to albums, create playlists, and play songs and playlists.
+
+8. Optionally, enhance your Music Library Management System by adding additional features such as search functionality, user interaction, or graphical user interface (GUI).
+
+Submission Guidelines:
+
+1. Organize your code into appropriate packages and classes.
+2. Ensure that your code is well-documented with comments explaining the purpose of each class, method, and attribute.
+3. Create a separate file (README.txt or README.md) to provide a brief overview of your Music Library Management System, including instructions for running the program and any additional features you have implemented.
+
+Conclusion:
+In this lab exercise, you have designed and implemented a Music Library Management System that allows users to manage music albums, artists, songs, and playlists. You have practiced applying object-oriented programming concepts such as aggregation, polymorphism, method overriding, and interfaces. This lab exercise has provided you with valuable experience in creating a comprehensive and interactive software solution for the music industry.
